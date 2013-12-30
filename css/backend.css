@@ -1,0 +1,30 @@
+#contenido{
+	overflow: visible;
+	min-height: 300px;
+	width:100%;
+	display:table;
+}
+
+#menu_principal{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:18%;
+	height:100%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#menu_principal > div {
+	font-size: 14px;
+	text-transform:capitalize;
+	text-align: left;
+	width:100%;
+	color: #000000;
+	cursor: pointer;
+}
+
+#menu_principal > div:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
